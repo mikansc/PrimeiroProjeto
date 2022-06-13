@@ -1,16 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Globalization;
 
 namespace GeraEstoque
 {
-    public static class CadastrarProdutos
+  class CadastrarProdutos
     {
+        //exercicio 07
+        public string? Nome;
+        public int Quantidade;
+        public double Preco;
+        public double PreçoVenda;
+
        
 
-  }
+    }
 
     
     }
