@@ -39,7 +39,7 @@ namespace GeraEstoque
 
             //exercicio09
 
-
+           
             Guid id = Guid.NewGuid();
             
 
@@ -51,11 +51,9 @@ namespace GeraEstoque
         {
 
             Console.Clear();
-            Console.WriteLine("Produto cadastrado com sucesso!");
-
+            Menu.DrawCanvas();
             Console.Clear();
-            Menu.DrawCanvas(); 
-
+            Console.WriteLine("Produto cadastrado com sucesso!");
             Console.SetCursorPosition(2, 4);
             Console.WriteLine("ID:" + id);
             Console.SetCursorPosition(2, 5);
